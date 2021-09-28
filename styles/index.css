@@ -1,15 +1,27 @@
 .body {
     background-repeat: no-repeat;
-    background-image: url(../img/background.jpeg);
+    background: url(../img/background.jpeg);
     background-size: cover;
-    position: relative;
+    margin: 0 0 0 0;
 }
 #netflix {
+    padding-top: 0px;
+    padding-bottom: 0px;
     width: 150px;
+} 
+.dark {
+    margin: 0;
+    padding: 20px;
+    background: rgba(0,0,0,0.46);
+    min-height: 1080px;
+    /* background-size: cover; */
 }
 .card {
+    background: rgba(0,0,0,0.9);
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.9);
-    background-color: rgba(0,0,0,0.95);
+    padding: 23px;
+    height: 450px;
+    /* background-color: rgba(0,0,0,0.95); */
     max-width: 300px;
     width: 50%;
     margin: auto;
