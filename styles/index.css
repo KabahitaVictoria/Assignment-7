@@ -70,10 +70,12 @@ input[type=submit] {
 input[type=text] {
     padding: 9px 58px 9px 15px;
     border-radius: 7%;
+    color: rgba(255, 255, 255, 0.808);
 }
 input[type=password] {
     padding: 9px 58px 9px 15px;
     border-radius: 7%;
+    color: rgba(255, 255, 255, 0.808);
 }
 input::-ms-check {
    color: black;
